@@ -1,6 +1,6 @@
 import React from 'react';
 import { UseSelector, useDispatch } from 'react-redux';
-import { addTodo } from '../Redux/store';
+import { addTodo } from '../Redux/todos/todos-actions';
 
 const AddTodo = () => {
     const dispatch = useDispatch();
